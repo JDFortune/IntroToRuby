@@ -1,14 +1,30 @@
-def test(b)
-  b.map! {|letter| "I like the letter: #{letter}"}
+# # test.rb
+
+# def say(words='hello')
+#   puts words + '.'
+# end
+
+# say("hello")
+# say("hi")
+# say("how are you")
+# say("I'm fine")
+# say()
+
+# def first
+#   puts "first method"
+# end
+
+# def second
+#   first
+#   puts "second method"
+# end
+
+# second
+# puts "main method"
+
+def add_three(n)
+  p n+3
 end
 
-a = ['a', 'b', 'c']
-b = test a 
+a = add_three(5)
 
-p a
-p b
-
-a.pop
-
-p a
-p b
